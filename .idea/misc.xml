@@ -4,25 +4,27 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/ornush/AndroidStudioProjects/MyChat/app/src/main/res/drawable-anydpi/ic_add.xml" value="0.1" />
+        <entry key="..\:/Users/ornush/AndroidStudioProjects/MyChat/app/src/main/res/drawable-anydpi/ic_close.xml" value="0.135" />
         <entry key="..\:/Users/ornush/AndroidStudioProjects/MyChat/app/src/main/res/drawable/account_img.xml" value="0.1" />
         <entry key="..\:/Users/ornush/AndroidStudioProjects/MyChat/app/src/main/res/drawable/activity_chat.xml" value="0.1135" />
         <entry key="..\:/Users/ornush/AndroidStudioProjects/MyChat/app/src/main/res/drawable/corner.xml" value="0.1" />
         <entry key="..\:/Users/ornush/AndroidStudioProjects/MyChat/app/src/main/res/drawable/gradient.xml" value="0.162" />
         <entry key="..\:/Users/ornush/AndroidStudioProjects/MyChat/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.1" />
+        <entry key="..\:/Users/ornush/AndroidStudioProjects/MyChat/app/src/main/res/drawable/ic_camera.xml" value="0.135" />
         <entry key="..\:/Users/ornush/AndroidStudioProjects/MyChat/app/src/main/res/drawable/ic_close.xml" value="0.1" />
         <entry key="..\:/Users/ornush/AndroidStudioProjects/MyChat/app/src/main/res/drawable/ic_person.xml" value="0.1" />
         <entry key="..\:/Users/ornush/AndroidStudioProjects/MyChat/app/src/main/res/drawable/msg_bacckground.xml" value="0.1" />
         <entry key="..\:/Users/ornush/AndroidStudioProjects/MyChat/app/src/main/res/drawable/round_blue_shape.xml" value="0.162" />
-        <entry key="..\:/Users/ornush/AndroidStudioProjects/MyChat/app/src/main/res/layout/activity_chat.xml" value="0.1" />
+        <entry key="..\:/Users/ornush/AndroidStudioProjects/MyChat/app/src/main/res/layout/activity_chat.xml" value="0.21" />
         <entry key="..\:/Users/ornush/AndroidStudioProjects/MyChat/app/src/main/res/layout/activity_list.xml" value="0.1" />
-        <entry key="..\:/Users/ornush/AndroidStudioProjects/MyChat/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/ornush/AndroidStudioProjects/MyChat/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/ornush/AndroidStudioProjects/MyChat/app/src/main/res/layout/activity_profile.xml" value="0.33" />
         <entry key="..\:/Users/ornush/AndroidStudioProjects/MyChat/app/src/main/res/layout/activity_user.xml" value="0.184375" />
         <entry key="..\:/Users/ornush/AndroidStudioProjects/MyChat/app/src/main/res/layout/message_layout.xml" value="0.1" />
         <entry key="..\:/Users/ornush/AndroidStudioProjects/MyChat/app/src/main/res/layout/user_holder.xml" value="0.1" />
         <entry key="..\:/Users/ornush/AndroidStudioProjects/MyChat/app/src/main/res/layout/user_item.xml" value="0.2" />
         <entry key="..\:/Users/ornush/AndroidStudioProjects/MyChat/app/src/main/res/layout/user_layoit.xml" value="0.1" />
-        <entry key="..\:/Users/ornush/AndroidStudioProjects/MyChat/app/src/main/res/layout/user_layout.xml" value="0.1" />
+        <entry key="..\:/Users/ornush/AndroidStudioProjects/MyChat/app/src/main/res/layout/user_layout.xml" value="0.25" />
         <entry key="..\:/Users/ornush/AndroidStudioProjects/MyChat/app/src/main/res/menu/menu.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/ornush/AndroidStudioProjects/MyChat/app/src/main/res/menu/profile_menu.xml" value="0.20416666666666666" />
       </map>

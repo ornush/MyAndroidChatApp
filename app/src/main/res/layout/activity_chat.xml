@@ -10,9 +10,9 @@
     <LinearLayout
         android:id="@+id/topLayout"
         android:layout_width="0dp"
-        android:layout_height="75dp"
+        android:layout_height="70dp"
+        android:background="@drawable/round_blue_shape"
         android:orientation="horizontal"
-        android:background="@drawable/gradient"
         android:padding="7dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -20,8 +20,9 @@
 
 
         <androidx.cardview.widget.CardView
-            android:layout_width="70dp"
-            android:layout_height="70dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="2dp"
             app:cardCornerRadius="50dp"
 
             >
@@ -31,25 +32,23 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
-                android:src="@drawable/ic_person"/>
+                android:src="@drawable/ic_person" />
 
         </androidx.cardview.widget.CardView>
 
         <TextView
             android:id="@+id/tvName"
+            android:text="aliceew"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="15dp"
             android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
 
             />
 
-<!--            android:layout_marginStart="20dp"-->
-<!--            android:scaleType="centerCrop"-->
-<!--            android:textColor="@color/black"-->
-
-
-
+        <!--            android:layout_marginStart="20dp"-->
+        <!--            android:scaleType="centerCrop"-->
+        <!--            android:textColor="@color/black"-->
 
 
         <TextView
@@ -62,7 +61,6 @@
             android:textColor="@color/black" />
 
 
-
         <TextView
             android:id="@+id/tvContent"
             android:layout_width="wrap_content"
@@ -71,59 +69,64 @@
             android:layout_marginStart="40dp"
             android:scaleType="centerCrop"
             android:textColor="@color/black" />
-            <ImageView
 
-                android:id="@+id/ivPic2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="-50dp"
-              />
+<!--        <ImageView-->
+
+<!--            android:id="@+id/ivPic2"-->
+<!--            android:layout_width="50dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_marginStart="-50dp" />-->
 
 
     </LinearLayout>
 
 
-    <ProgressBar
-        android:id="@+id/progressMsg"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+    <!--    <ProgressBar-->
+    <!--        android:id="@+id/progressMsg"-->
+    <!--        android:layout_width="200dp"-->
+    <!--        android:layout_height="200dp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"/>-->
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/lstMsg"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="588dp"-->
-<!--        app:layout_constraintBottom_toTopOf="@+id/edtTxt"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/topLayout" />-->
+        android:layout_width="0dp"
+        android:layout_height="466dp"
+        android:layout_marginHorizontal="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/edtTxt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topLayout" />
+
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="588dp"-->
+    <!--        app:layout_constraintBottom_toTopOf="@+id/edtTxt"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/topLayout" />-->
 
 
     <EditText
         android:id="@+id/edtTxt"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:minHeight="45dp"
-        android:maxHeight="100dp"
         android:layout_marginHorizontal="9dp"
-        android:paddingVertical="10dp"
-        android:paddingHorizontal="20dp"
         android:layout_marginBottom="10dp"
         android:background="@drawable/msg_bacckground"
+        android:maxHeight="100dp"
+        android:minHeight="45dp"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@id/sendTxt"
-        app:layout_constraintStart_toStartOf="parent"
-         />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/sendTxt"
         android:layout_width="40dp"
         android:layout_height="40dp"
-        android:src="@drawable/ic_send"
         android:layout_marginBottom="13dp"
+        android:src="@drawable/ic_send"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 

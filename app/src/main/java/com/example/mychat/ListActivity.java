@@ -42,9 +42,14 @@ public class ListActivity extends AppCompatActivity {
         lstUsers.setLayoutManager(new LinearLayoutManager(this));
 
         List<User>users = new ArrayList<>();
-        users.add(new User("alice","ttt2mail,com",R.drawable.pic1));
-        users.add(new User("alice2","ttt2mail,com",R.drawable.pic1));
-        users.add(new User("alice3","ttt2mail,com",R.drawable.pic1));
+        users.add(new User("Alice","whats up?",R.drawable.pic1));
+        users.add(new User("Bob","talk with me, please",R.drawable.man1));
+        users.add(new User("Eliyahu","hahahahah",R.drawable.man2));
+        users.add(new User("Shira","at 4pm",R.drawable.woman2));
+        users.add(new User("Dana","i will see you in the uni",R.drawable.woman3));
+        users.add(new User("Israel","no matter",R.drawable.man3));
+        users.add(new User("Yaakov","what????",R.drawable.man4));
+        users.add(new User("Yinon","so??",R.drawable.ic_person));
 
         adapter.setUsers(users);
 

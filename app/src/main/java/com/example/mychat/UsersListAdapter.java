@@ -104,7 +104,7 @@ public class UsersListAdapter extends RecyclerView.Adapter <UsersListAdapter.Use
 
           final User current = users.get(position);
           holder.tvName.setText(current.getUsername());
-          holder.tvEmail.setText(current.getEmail());
+          holder.tvEmail.setText(current.getNickname());
           holder.ivPic.setImageResource(current.getProfilePicture());
 
         }

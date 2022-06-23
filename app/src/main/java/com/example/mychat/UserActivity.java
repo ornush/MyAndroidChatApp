@@ -1,8 +1,6 @@
 package com.example.mychat;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -25,19 +23,19 @@ public class UserActivity extends AppCompatActivity {
 
 
       //  button
-        btnUser= findViewById(R.id.btnUser);
-        btnUser.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-//                Intent i = new Intent(view.getContext(),Profile.class);
-//                startActivity(i);
-
-                Intent myIntent = new Intent(UserActivity.this, Profile.class);
-//                myIntent.putExtra("key", value); //Optional parameters
-                UserActivity.this.startActivity(myIntent);
-
-            }
-        });
+//        btnUser= findViewById(R.id.btnUser);
+//        btnUser.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+////                Intent i = new Intent(view.getContext(),Profile.class);
+////                startActivity(i);
+//
+//                Intent myIntent = new Intent(UserActivity.this, Profile.class);
+////                myIntent.putExtra("key", value); //Optional parameters
+//                UserActivity.this.startActivity(myIntent);
+//
+//            }
+//        });
 
 
     }

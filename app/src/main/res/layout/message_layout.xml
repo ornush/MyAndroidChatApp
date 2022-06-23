@@ -3,58 +3,56 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_marginHorizontal="10dp"
     android:layout_marginTop="10dp">
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/ccLayout"
-        android:layout_width="411dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+       >
 
 
         <androidx.cardview.widget.CardView
-            android:layout_width="70dp"
-            android:layout_height="70dp"
-            app:cardCornerRadius="50dp">
+            android:id="@+id/profile_cardView"
+            android:layout_marginHorizontal="10dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:cardCornerRadius="0dp">
 
-            <ImageView
-                android:id="@+id/ivPic"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:scaleType="centerCrop"
-                android:src="@drawable/pic1" />
+<!--            <ImageView-->
+<!--                android:id="@+id/ivPic"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:scaleType="centerCrop"-->
+<!--                android:src="@drawable/pic1" />-->
 
         </androidx.cardview.widget.CardView>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <TextView
-        android:id="@+id/tvName"
+        android:id="@+id/txtMessage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginStart="208dp"
         android:background="@drawable/msg_bacckground"
+        android:text="syydh vfhhfhhfhfhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh"
         android:maxWidth="200dp"
-        android:paddingHorizontal="8dp"
-        android:scaleType="centerCrop"
+        android:padding="8dp"
+        android:layout_marginHorizontal="9dp"
         android:textColor="@color/black"
-        app:layout_constraintBottom_toBottomOf="@+id/ccLayout"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/ccLayout"
-        app:layout_constraintTop_toTopOf="@+id/ccLayout" />
+         />
 
 
-        <TextView
-            android:id="@+id/tvEmail"
-            android:layout_width="wrap_content"
-            android:layout_marginStart="40dp"
-            android:layout_gravity="center"
-            android:textColor="@color/black"
-            android:scaleType="centerCrop"
-            android:layout_height="wrap_content"/>
+<!--        <TextView-->
+<!--            android:id="@+id/reciver"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:background="@drawable/msg_bacckground"-->
+<!--            android:layout_marginStart="40dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:text="syydh vf00888737635252672h"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:scaleType="centerCrop"-->
+<!--            android:layout_height="wrap_content"/>-->
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

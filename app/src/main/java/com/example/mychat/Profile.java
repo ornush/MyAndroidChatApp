@@ -30,10 +30,10 @@ public class Profile extends AppCompatActivity {
         lstMsg.setLayoutManager(new LinearLayoutManager(this));
 
         List<Message> msg = new ArrayList<>();
-        msg.add(new Message("hi!!!!","bye####","hello"));
-        msg.add(new Message("hi2222!!!!","bye####","hello"));
-        msg.add(new Message("hi33333!!!!","bye####","hello"));
-
+        msg.add(new Message("alice","bob","hello bob how are you?"));
+//        msg.add(new Message("bob","alice","hello Alice"));
+        msg.add(new Message("alice","bob","whats up?"));
+//        msg.add(new Message("bob","alice","baruch hashem!"));
         adapter.setUsers(msg);
 
 

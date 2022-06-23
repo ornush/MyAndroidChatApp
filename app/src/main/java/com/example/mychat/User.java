@@ -10,16 +10,16 @@ public class User {
 
 
 private String username;
-private  String email;
+private  String nickname;
 private int profilePicture;
 
     public User() {
         this.profilePicture = R.drawable.pic1;
     }
 
-    public User(String username, String email, int profilePicture) {
+    public User(String username, String nickname, int profilePicture) {
         this.username = username;
-        this.email = email;
+        this.nickname = nickname;
         this.profilePicture = profilePicture;
     }
 
@@ -31,12 +31,12 @@ private int profilePicture;
         this.username = username;
     }
 
-    public String getEmail() {
-        return email;
+    public String getNickname() {
+        return nickname;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setNickname(String nickname) {
+        this.nickname = nickname;
     }
 
     public int getProfilePicture() {
