@@ -10,6 +10,7 @@ public class Message {
         this.sender = sender;
         this.receiver = receiver;
         this.content = content;
+
     }
 
     public String getSender() {

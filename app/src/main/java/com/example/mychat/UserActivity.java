@@ -22,6 +22,7 @@ public class UserActivity extends AppCompatActivity {
         setContentView(R.layout.user_layout);
 
 
+
       //  button
 //        btnUser= findViewById(R.id.btnUser);
 //        btnUser.setOnClickListener(new View.OnClickListener() {

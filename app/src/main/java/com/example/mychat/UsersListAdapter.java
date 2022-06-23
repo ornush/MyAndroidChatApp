@@ -24,6 +24,7 @@ public class UsersListAdapter extends RecyclerView.Adapter <UsersListAdapter.Use
         private final ImageView ivPic;
 
 
+
         private UserViewHolder(View itemView) {
 
             super(itemView);

@@ -17,6 +17,7 @@ private int profilePicture;
         this.profilePicture = R.drawable.pic1;
     }
 
+
     public User(String username, String nickname, int profilePicture) {
         this.username = username;
         this.nickname = nickname;

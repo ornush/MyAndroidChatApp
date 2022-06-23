@@ -51,6 +51,7 @@ public class MessagesAdapter extends RecyclerView.Adapter <MessagesAdapter.Messa
     }
 
 
+
     @Override
     public MessageViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
 
