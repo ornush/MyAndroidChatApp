@@ -50,5 +50,5 @@ In the chat you can interact with your friends and send only text masseges .
 
 In This Project We have used java,XML.<br /> 
 
-#### writers:  Orna Tapeta, Shimon Avraham 
+#### writer:  Orna Tapeta
 
