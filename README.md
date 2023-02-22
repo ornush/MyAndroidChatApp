@@ -2,7 +2,7 @@
 AndroidChatApp
 
 
-We wrote an Android App chat for chatting with each other. <br />
+I wrote an Android App chat for chatting with each other. <br />
 
 
 After you download all the files you finally can run the Login or SignUp pages on Your phone or Emulator on android studio IDE  
@@ -48,7 +48,7 @@ In the chat you can interact with your friends and send only text masseges .
 # enjoy!<br />
 <br />
 
-In This Project We have used java,XML.<br /> 
+In This Project I have used java,XML.<br /> 
 
 #### writer:  Orna Tapeta
 
